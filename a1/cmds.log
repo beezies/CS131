@@ -1,0 +1,20 @@
+   64  echo $HOME                     // Q1
+--------------------------------------------
+   65  cd /proc                       
+   67  ls | grep mem; ls | grep cpu   // Q2
+   68  sudo vi meminfo
+   69  sudo vi cpuinfo
+--------------------------------------------
+   71  cd /etc			      
+   72  ls			      // Q3
+   73  file os-release
+   74  cat os-release
+--------------------------------------------
+   79  cd			      // Q4
+   80  cd CS131/a1
+   82  ls
+   83  head 2019-04.csv
+  101  grep "2019-04-02" 2019-04.csv | cut -d ',' -f 8 | sort -n | uniq -c | sort -k 1 -nr | head -n 3    // A
+  102  grep "2019-04-10" 2019-04.csv | cut -d ',' -f 8 | sort -n | uniq -c | sort -k 1 -nr | head -n 3    // B
+--------------------------------------------
+  104  history > cmds.log

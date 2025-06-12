@@ -1,0 +1,18 @@
+Q1)
+Home path: /home/brianna_rogers
+Q2)
+Information about memory: meminfo
+Information about the CPUs: cpuinfo
+Q3)
+File containing OS version: os-release
+Q4)
+Searching dataset (number of pickups, location ID)
+a - April 2 
+13354 161.0
+12421 237.0
+11138 236.0
+b - April 10
+13290 161.0
+12956 237.0
+11278 236.0
+ 
