@@ -14,12 +14,12 @@ If column names are in an unrecognized format, the tool will simply number the c
 From inside the `cs131/a2` directory, run:
 
 ```bash
-$ ./datacollector.sh
-(note: make sure to run $ chmod 755 datacollector.sh to enable execution)
+./datacollector.sh
+```
+(note: make sure to run ``` $ chmod 755 datacollector.sh ``` to enable execution)
 
 The tool will ask you to input a dataset URL. Simply paste your desired set URL and press enter.
 The results will be generated within a directory with the same name as the dataset.
-```
 ---
 
 ## Example
