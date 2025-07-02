@@ -75,7 +75,7 @@ crunch_numbers() {
      			 "$index" "$feature" "$min" "$max" "$mean" "$stddev" >> "$summary"
 	done
 	echo -e "|-------|-------------------|-------|-------|-------|--------|\n\n" >> $summary
-	echo -e "\nFeature summary written to $summary_file -- "
+	echo -e "\nFeature summary written to $summary -- "
 	cat "$summary"
 }
 
