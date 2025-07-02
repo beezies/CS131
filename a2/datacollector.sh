@@ -20,6 +20,13 @@ fi
 
 DATA_FILES=()
 for i in *; do
+        if [[ $i == *.zip ]]; then
+                unzip $i
+        fi
+
+done
+
+for i in *; do
 	if [[ ($i == *.csv || $i == *.data || $i == *.train || $i == *.test) && $i != *processed* ]]; then
 		DATA_FILES+=($i)
 	fi
