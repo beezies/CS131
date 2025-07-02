@@ -19,6 +19,8 @@ $ ./datacollector.sh
 
 The tool will ask you to input a dataset URL. Simply paste your desired set URL and press enter.
 The results will be generated within a directory with the same name as the dataset.
+```
+---
 
 ## Example
 
