@@ -3,7 +3,7 @@
 
 ## What this command does
 
-This shell tool downloads a dataset file from a given URL and generates a summary. It supports files with `.csv`, `.data`, `.train`, and `.test` extensions. 
+This shell tool downloads a dataset file from a given URL and generates a summary. It supports files with `.csv`, `.data`, and `.train`, extensions. 
 If column names are available (in the file or a corresponding `.names` file), the tool lists them and computes basic statistics for numeric columns (min, max, mean, and standard deviation).
 If column names are in an unrecognized format, the tool will simply number the columns starting at 1.
 

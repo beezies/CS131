@@ -27,7 +27,7 @@ for i in *; do
 done
 
 for i in *; do
-	if [[ ($i == *.csv || $i == *.data || $i == *.train || $i == *.test) && $i != *processed* ]]; then
+	if [[ ($i == *.csv || $i == *.data || $i == *.train) && $i != *processed* ]]; then
 		DATA_FILES+=($i)
 	fi
 done
