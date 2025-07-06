@@ -1,0 +1,19 @@
+# Task 1 - students are stored in an array to perform the following calculations
+# Task 2 - a function was created to calculate the average for each student (total / 3)
+# Task 3 - the min and max were kept track of during the main body using if statements
+# Task 4 & 5 - all the information is printed as seen below
+
+Student David has a total score of 195 and an average of 65 -- Status:
+FAIL
+Student Eve has a total score of 265 and an average of 88.3333 -- Status:
+PASS
+Student Bob has a total score of 246 and an average of 82 -- Status:
+PASS
+Student Charlie has a total score of 270 and an average of 90 -- Status:
+PASS
+Student Alice has a total score of 253 and an average of 84.3333 -- Status:
+PASS
+
+Max score: Charlie with 270 total points.
+
+Min score: David with 195 total points.

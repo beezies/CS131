@@ -1,0 +1,12 @@
+  571  vi grades.csv
+  575  vi grader.awk 
+  577  awk -f grader.awk grades.csv
+  589  vi grader.awk 
+  596  cat grades.csv 
+  597  vi grader.awk 
+  599  awk -f grader.awk grades.csv
+  600  vi grader.awk 
+  617  awk -f grader.awk grades.csv
+  622  awk -f grader.awk grades.csv > a3.txt 
+  624  vi a3.txt 
+  632  history | tail -n 65 > cmnd.log 
